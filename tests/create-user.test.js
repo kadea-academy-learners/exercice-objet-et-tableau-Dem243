@@ -10,7 +10,7 @@ describe("createUser", () => {
     expect(user).toEqual({
       nom: "John",
       age: 30,
-      estConnecté: true,
+      estConnecte: true,
     });
   });
 
@@ -19,7 +19,7 @@ describe("createUser", () => {
     expect(user).toEqual({
       nom: "",
       age: 0,
-      estConnecté: false,
+      estConnecte: false,
     });
   });
 
@@ -28,7 +28,7 @@ describe("createUser", () => {
     expect(user).toEqual({
       nom: "Alice",
       age: "25",
-      estConnecté: "true",
+      estConnecte: "true",
     });
   });
 });
